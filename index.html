@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bakyt Electric Бишкек</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#071a33;color:#fff;line-height:1.5}.wrap{max-width:480px;margin:auto;background:linear-gradient(180deg,#08244a,#071a33)}.header{position:sticky;top:0;z-index:10;background:rgba(7,26,51,.95);padding:14px 18px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(255,255,255,.08)}.logo{font-size:20px;font-weight:800;color:#ffcc00}.tag{font-size:12px;color:#9fc7ff}.hero{padding:28px 20px 24px;text-align:center;background:radial-gradient(circle at top,#164f9c,#071a33 65%)}.hero h1{font-size:30px;margin:8px 0 10px}.hero p{color:#d8e8ff;margin:6px 0}.badge{display:inline-block;background:rgba(255,204,0,.15);border:1px solid #ffcc00;color:#ffcc00;border-radius:20px;padding:7px 12px;font-size:13px}.btn{display:block;margin:12px auto;padding:15px;width:92%;text-align:center;border-radius:14px;text-decoration:none;font-weight:800}.call{background:#ffcc00;color:#06142a}.whatsapp{background:#25D366;color:#06142a}.section{padding:22px 18px}.section h2{font-size:22px;margin:0 0 14px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.card{background:#102d55;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:15px}.card b{color:#ffcc00}.price-note{font-size:13px;color:#b7c9dd}.about{background:#0d274d;border-left:4px solid #ffcc00;border-radius:16px;padding:16px}.workbox{height:130px;border:1px dashed #5d86bf;border-radius:16px;display:flex;align-items:center;justify-content:center;color:#9fc7ff;margin-top:10px}.cat{margin:10px 0;border-radius:16px;overflow:hidden;border:1px solid rgba(255,255,255,.1);background:#0f2a51}.cat summary{cursor:pointer;padding:15px;font-weight:800;color:#ffcc00}.table{width:100%;border-collapse:collapse;background:#0a203f}.table td{border-top:1px solid rgba(255,255,255,.08);padding:9px 10px;font-size:13px}.table td:last-child{text-align:right;color:#ffcc00;white-space:nowrap}.footer{text-align:center;padding:25px 18px;background:#061426}.fixed{position:fixed;bottom:0;left:0;right:0;background:#061426;padding:8px;display:flex;gap:8px;z-index:20}.fixed a{flex:1;margin:0;padding:12px;font-size:14px}.spacer{height:70px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="header">
+  <div><div class="logo">⚡ Bakyt Electric</div><div class="tag">Электрик Бишкек</div></div>
+  <div class="tag">10+ лет опыта</div>
+</header>
+
+<section class="hero">
+  <span class="badge">Квартира • Дом • Офис • Кафе</span>
+  <h1>Электромонтаж под ключ</h1>
+  <p>Качественно, аккуратно и безопасно. Работаем по Бишкеку.</p>
+  <a href="tel:0705333533" class="btn call" data-contact="phone">📞 Позвонить: 0705 333 533</a>
+  <a href="https://wa.me/996705333533" class="btn whatsapp" data-contact="whatsapp">💬 WhatsApp</a>
+  <a href="https://t.me/yourusername" class="btn" id="telegramLink" style="background:#229ED9;color:#fff">✈️ Telegram</a>
+  <a href="https://wa.me/996705333533?text=Здравствуйте,%20нужен%20электромонтаж.%20Хочу%20узнать%20цену" class="btn whatsapp" data-contact="whatsapp">💬 Написать в WhatsApp</a>
+</section>
+
+<section class="section">
+  <h2>Услуги</h2>
+  <div class="grid">
+    <div class="card"><b>Электрощиты</b><br>Сборка, автоматика, УЗО, автоматы</div>
+    <div class="card"><b>Проводка</b><br>Прокладка и замена кабеля</div>
+    <div class="card"><b>Розетки</b><br>Установка, перенос, замена</div>
+    <div class="card"><b>Освещение</b><br>Люстры, LED, подсветка</div>
+    <div class="card"><b>Диагностика</b><br>Поиск неисправностей</div>
+    <div class="card"><b>Слаботочка</b><br>Интернет, ТВ, сигнализация</div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Наши успехи</h2>
+  <div class="grid">
+    <div class="card">⭐ <b>10+ лет</b><br>опыта</div>
+    <div class="card">👷 <b>100+ объектов</b><br>в работе</div>
+    <div class="card">🛡 <b>Безопасность</b><br>на первом месте</div>
+    <div class="card">😊 <b>Клиенты довольны</b><br>результатом</div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>О нас</h2>
+  <div class="about">Bakyt Electric выполняет электромонтажные работы в Бишкеке более 10 лет. Работаем аккуратно, соблюдаем безопасность, используем понятный подход и заранее объясняем стоимость работ.</div>
+</section>
+
+<section class="section">
+  <h2>Смета / Прайс-лист</h2>
+  <p class="price-note">Цены ориентировочные. Уточняются после осмотра объекта.</p>
+
+  <details class="cat" open>
+    <summary>Кабельная продукция</summary>
+    <table class="table">
+      <tr><td>Монтаж провода 1х1.5</td><td>40 сом/м</td></tr>
+      <tr><td>Монтаж провода 1х2.5</td><td>40 сом/м</td></tr>
+      <tr><td>Монтаж провода 1х4</td><td>40 сом/м</td></tr>
+      <tr><td>Монтаж провода 1х6</td><td>50 сом/м</td></tr>
+      <tr><td>Монтаж провода 1х10</td><td>65 сом/м</td></tr>
+      <tr><td>Монтаж кабеля 3х2.5</td><td>50 сом/м</td></tr>
+      <tr><td>Монтаж кабеля 3х4</td><td>65 сом/м</td></tr>
+      <tr><td>Монтаж кабеля 3х6</td><td>80 сом/м</td></tr>
+      <tr><td>Монтаж кабеля 4х6</td><td>100 сом/м</td></tr>
+      <tr><td>Монтаж кабеля 4х10</td><td>100 сом/м</td></tr>
+      <tr><td>Монтаж кабеля 4х25</td><td>150 сом/м</td></tr>
+      <tr><td>Монтаж кабеля 4х50</td><td>300 сом/м</td></tr>
+      <tr><td>Слаботочный кабель (UTP)</td><td>50 сом/м</td></tr>
+    </table>
+  </details>
+
+  <details class="cat">
+    <summary>Трубы и кабельные каналы</summary>
+    <table class="table">
+      <tr><td>Труба ПВХ 20</td><td>60 сом/м</td></tr>
+      <tr><td>Труба ПВХ 25</td><td>80 сом/м</td></tr>
+      <tr><td>Труба ПВХ 32</td><td>80 сом/м</td></tr>
+      <tr><td>Кабель канал 25х25</td><td>100 сом/м</td></tr>
+      <tr><td>Кабель канал 40х25</td><td>150 сом/м</td></tr>
+      <tr><td>Лоток металл 100х50</td><td>300 сом/м</td></tr>
+    </table>
+  </details>
+
+  <details class="cat">
+    <summary>Розетки и выключатели</summary>
+    <table class="table">
+      <tr><td>Монтаж розетки</td><td>200 сом</td></tr>
+      <tr><td>Монтаж выключателя</td><td>200 сом</td></tr>
+      <tr><td>Диммер</td><td>300 сом</td></tr>
+      <tr><td>Распред коробка</td><td>700 сом</td></tr>
+    </table>
+  </details>
+
+  <details class="cat">
+    <summary>Щиты и автоматы</summary>
+    <table class="table">
+      <tr><td>Щит 16 групп</td><td>1500 сом</td></tr>
+      <tr><td>Щит 24 групп</td><td>2000 сом</td></tr>
+      <tr><td>Щит 36 групп</td><td>2500 сом</td></tr>
+      <tr><td>Автомат 1P</td><td>250 сом</td></tr>
+      <tr><td>Автомат 2P</td><td>350 сом</td></tr>
+      <tr><td>Автомат 3P</td><td>400 сом</td></tr>
+      <tr><td>Автомат 4P</td><td>500 сом</td></tr>
+    </table>
+  </details>
+
+  <details class="cat">
+    <summary>Освещение</summary>
+    <table class="table">
+      <tr><td>Софит LED</td><td>100–250 сом</td></tr>
+      <tr><td>Светильник</td><td>250–400 сом</td></tr>
+      <tr><td>Люстра</td><td>от 500 сом</td></tr>
+    </table>
+  </details>
+
+  <details class="cat">
+    <summary>Подготовительные работы</summary>
+    <table class="table">
+      <tr><td>Штроба кирпич</td><td>200 сом/м</td></tr>
+      <tr><td>Штроба бетон</td><td>500 сом/м</td></tr>
+      <tr><td>Отверстие под коробку</td><td>150–500 сом</td></tr>
+    </table>
+  </details>
+</section>
+
+<section class="section">
+  <h2>Смета (пример)</h2>
+  <p class="price-note">Пример сметы. Точная цена считается индивидуально.</p>
+  <table class="table">
+    <tr><td>Монтаж кабеля 3х2.5 (50м)</td><td>от 2500 сом</td></tr>
+    <tr><td>Установка розеток (10 шт)</td><td>от 2000 сом</td></tr>
+    <tr><td>Установка щита</td><td>от 1500 сом</td></tr>
+    <tr><td>Монтаж автоматов (10 шт)</td><td>от 3000 сом</td></tr>
+    <tr><td>Освещение (5 точек)</td><td>от 1500 сом</td></tr>
+    <tr><td><b>ИТОГО</b></td><td><b>≈ 10 000 сом</b></td></tr>
+  </table>
+</section>
+
+<section class="section">
+  <h2>Наши работы</h2>
+  <div class="workbox">📸 Здесь будут фото твоих щитов</div>
+</section>
+
+<section class="section">
+  <h2>Заявка</h2>
+  <a href="https://wa.me/996705333533?text=Здравствуйте,%20хочу%20узнать%20цену" class="btn whatsapp">Получить консультацию</a>
+</section>
+
+<footer class="footer">
+  <b>Bakyt Electric</b><br>📞 <span id="adminPhoneText">0705 333 533</span><br><br>
+  <button onclick="openAdmin()" style="background:transparent;color:#9fc7ff;border:1px solid #355f99;border-radius:10px;padding:10px 14px">Админ</button>
+</footer>
+
+<section id="adminPanel" class="section" style="display:none;background:#061426;border-top:1px solid rgba(255,255,255,.1)">
+  <h2>Админ-панель</h2>
+  <p class="price-note">Вход только для администратора. Первый пароль: <b>1234</b></p>
+  <input id="adminPass" placeholder="Пароль" type="password" style="width:100%;padding:14px;border-radius:12px;border:0;margin:8px 0">
+  <button onclick="loginAdmin()" class="btn call">Войти</button>
+
+  <div id="adminContent" style="display:none">
+    <h3>Редактировать контакты</h3>
+    <input id="newPhone" placeholder="Телефон: 0705 333 533" style="width:100%;padding:14px;border-radius:12px;border:0;margin:8px 0">
+    <input id="newWhatsapp" placeholder="WhatsApp: 996705333533" style="width:100%;padding:14px;border-radius:12px;border:0;margin:8px 0">
+    <input id="newTelegram" placeholder="Telegram username" style="width:100%;padding:14px;border-radius:12px;border:0;margin:8px 0">
+    <button onclick="saveContacts()" class="btn whatsapp">Сохранить контакты</button>
+
+    <h3>Редактировать прайс</h3>
+    <p class="price-note">Пока меняем цены в коде. Следующий этап — настоящая база данных, где ты будешь менять цены без кода.</p>
+  </div>
+</section>
+<div class="spacer"></div>
+</div>
+<div class="fixed">
+  <a href="tel:0705333533" class="btn call" data-contact="phone">Позвонить</a>
+  <a href="https://wa.me/996705333533" class="btn whatsapp" data-contact="whatsapp">WhatsApp</a>
+</div>
+
+<script>
+function openAdmin(){
+  const panel = document.getElementById('adminPanel');
+  panel.style.display = panel.style.display === 'none' ? 'block' : 'none';
+  panel.scrollIntoView({behavior:'smooth'});
+}
+
+function loginAdmin(){
+  const pass = document.getElementById('adminPass').value;
+  if(pass === '1234'){
+    document.getElementById('adminContent').style.display = 'block';
+    alert('Добро пожаловать, админ!');
+  } else {
+    alert('Неверный пароль');
+  }
+}
+
+function updateContactLinks(phone, whatsapp, telegram){
+  const normalizedPhone = phone.replace(/\D/g, '');
+  const normalizedWhatsapp = whatsapp.replace(/\D/g, '');
+  document.querySelectorAll('a[data-contact="phone"]').forEach((link) => {
+    link.href = `tel:${normalizedPhone}`;
+    if(link.textContent.includes('Позвонить')){
+      link.textContent = `📞 Позвонить: ${phone}`;
+    }
+  });
+  document.querySelectorAll('a[data-contact="whatsapp"]').forEach((link) => {
+    if(link.href.includes('?text=')){
+      link.href = `https://wa.me/${normalizedWhatsapp}?text=Здравствуйте,%20нужен%20электромонтаж.%20Хочу%20узнать%20цену`;
+    } else {
+      link.href = `https://wa.me/${normalizedWhatsapp}`;
+    }
+  });
+  const telegramLink = document.getElementById('telegramLink');
+  if(telegramLink){
+    telegramLink.href = `https://t.me/${telegram}`;
+  }
+}
+
+function saveContacts(){
+  const phone = document.getElementById('newPhone').value.trim() || '0705 333 533';
+  const whatsapp = document.getElementById('newWhatsapp').value.trim() || '996705333533';
+  const telegram = document.getElementById('newTelegram').value.trim() || 'yourusername';
+  localStorage.setItem('bakyt_phone', phone);
+  localStorage.setItem('bakyt_whatsapp', whatsapp);
+  localStorage.setItem('bakyt_telegram', telegram);
+  document.getElementById('adminPhoneText').innerText = phone;
+  updateContactLinks(phone, whatsapp, telegram);
+  alert('Контакты сохранены на этом устройстве');
+}
+
+window.addEventListener('load', function(){
+  const savedPhone = localStorage.getItem('bakyt_phone');
+  const savedWhatsapp = localStorage.getItem('bakyt_whatsapp');
+  const savedTelegram = localStorage.getItem('bakyt_telegram');
+  if(savedPhone && document.getElementById('adminPhoneText')){
+    document.getElementById('adminPhoneText').innerText = savedPhone;
+  }
+  if(savedPhone || savedWhatsapp || savedTelegram){
+    updateContactLinks(savedPhone || '0705 333 533', savedWhatsapp || '996705333533', savedTelegram || 'yourusername');
+  }
+});
+</script>
+</body>
+</html>
